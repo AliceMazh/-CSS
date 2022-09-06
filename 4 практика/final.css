@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+*{margin:0;padding:0}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  background: #222831;
+  color: white;
+}
+header,
+nav,
+section,
+.content-container,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ========== Menu ==========*/
+header {
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 1em 8em;
+    background: #161a20;
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
+  }
+  #logo {
+    width: 50px;
+    transition: 0.3s;
+  }
+  #logo:hover {
+    transform: scale(1.2);
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1em 2em;
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    border: 1px solid #f05454;
+  }
+  
+  /* ========== Hero Section ==========*/
+  section {
+    width: 100%;
+    height: 100vh;
+  }
+  /* ========== Footer ==========*/
+footer {
+    background: #161a20;
+    padding: 3em;
+  }
+.gradient-card-1{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  background: linear-gradient(53deg, #31b6df 0%, #5631db 100%);
+  border-radius: 10px;
+  width: 100%;
+  height: 10em;
+  box-shadow: 13px 16px 8px 1px #000;
+    transition: 0.3s linear;
+}
+#section-1{
+  display: flex;
+  align-items:space-around;
+  justify-content: space-around;
+  width: 100%;
+  height: 100em;
+}
+.gr-1{
+    display: flex;
+    justify-content:flex-start;
+    width: 70%;
+    border-radius: 10px;
+    height: 30em;
+    align-items:flex-start;
+}
+.gr-2{
+    display: flex;
+    justify-content:flex-end;
+    width: 70%;
+    border-radius: 10px;
+    height: 30em;
+    align-items:flex-end;
+    flex-direction: row-reverse;
+}
+.gradient-card-2{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background: linear-gradient(53deg, #e6b73e 0%, #d01cd7 100%);
+    border-radius: 10px;
+    width: 100%;
+    height: 10em;
+    box-shadow: 13px 16px 8px 1px #000;
+    transition: 0.3s linear;
+}
+
+#section-2{
+    display: flex;
+    align-items:space-around;
+    justify-content: space-around;
+    width: 100%;
+    height: 70em;
+    flex-direction: column;
+}
+.gradient-card-3{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background: linear-gradient(53deg, #a831df 0%, #ee17d1 100%);
+    border-radius: 10px;
+    width: 20%;
+    height: 5em;
+    box-shadow: 13px 16px 8px 1px #000;
+    transition: 0.3s linear;
+}
+.gradient-card-4{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background: linear-gradient(53deg, #d4df31 0%, #31db7e 100%);
+    border-radius: 10px;
+    width: 20%;
+    height: 5em;
+    box-shadow: 13px 16px 8px 1px #000;
+    transition: 0.3s linear;
+}
+.gr-3{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    border-radius: 10px;
+    height: 5em;
+    align-items:flex-start;
+    flex-direction: row-reverse;
+}
+.gr-4{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    border-radius: 10px;
+    height: 5em;
+    align-items:flex-end;
+}
+
+#section-3
+{
+width: auto;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+color: #fff;
+font-size: 20px;
+margin-top: 300px;
+flex-grow: 1;
+}
+.gr-5
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: baseline;
+}
+.gr-6
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: baseline;
+margin-top: 200px;
+transition: 1s linear;
+}
+.gr-6:hover
+{
+margin-top: 10px;
+margin-bottom: 150px;
+}
+.gr-7
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: baseline;
+margin-top: 100px;
+transition: 0.5s linear;
+}
+.gr-7:hover
+{
+display: flex;
+flex-direction: column;
+justify-content: stretch;
+margin-top: 0px;
+}
+.gr-7:hover .gradient-card-7
+{
+width:100%;
+}
+.gradient-card-5
+{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 200px;
+height: 120px;
+border-radius: 20px;
+background: linear-gradient(33deg, #3a045c 17%, #56139c 100%);
+box-shadow: 13px 16px 8px 1px #000;
+}
+.gradient-card-6
+{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 200px;
+height: 120px;
+border-radius: 20px;
+background: linear-gradient(33deg, #00c15e 17%, #01292d 100%);
+box-shadow: 13px 16px 8px 1px #000;
+}
+.gradient-card-7
+{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 200px;
+height: 120px;
+border-radius: 20px;
+background: linear-gradient(33deg, #c16300 17%, #c3ab06 100%);
+box-shadow: 13px 16px 8px 1px #000;
+transition: 0.3s linear;
+}
+
+#section-4{
+    display: flex;
+    align-items:space-around;
+    justify-content: space-around;
+    width: 100%;
+    height: 40em;
+}
+.gr-8{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    height: 40em;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.gr-9{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    border-radius: 10px;
+    height: 40em;
+    flex-direction:column-reverse;
+    align-items: center;
+}
+.gradient-card-8{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    align-content: space-around;
+    background: linear-gradient(53deg, #a831df 0%, #ee17d1 100%);
+    border-radius: 10px;
+    width: 20%;
+    height: 5em;
+    box-shadow: 13px 16px 8px 1px #000;
+    transition: 0.3s linear;
+}
+.gradient-card-9{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background: linear-gradient(53deg, #3177df 0%, #31d5db 100%);
+    border-radius: 10px;
+    width: 40%;
+    height: 5em;
+    box-shadow: 13px 16px 8px 1px #000;
+    transition: 0.3s linear;
+}
+
+#section-5{
+    display: flex;
+    align-items:space-around;
+    justify-content: space-around;
+    width: 100%;
+    height: 40em;
+}
+.gr-10{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    border-radius: 10px;
+    height: 40em;
+    align-items: center;
+}
+.gr-11{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    border-radius: 10px;
+    height: 40em;
+    align-items: flex-end;
+}
+.gradient-card-10{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background: linear-gradient(53deg, #df3197 0%, #8931db 100%);
+    border-radius: 10px;
+    width: 40%;
+    height: 5em;
+    box-shadow: 13px 16px 8px 1px #000;
+    transition: 0.3s linear;
+}
+
+#section-6{
+    display: flex;
+    align-items:space-around;
+    justify-content: space-around;
+    width: 100%;
+    height: 40em;
+    flex-wrap: nowrap;
+}
+.gr-12{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    border-radius: 10px;
+    height: 40em;
+    align-items: center;
+}
+.gr-12:hover{
+    display: flex;
+    align-items:space-around;
+    justify-content: space-around;
+    width: 100%;
+    height: 40em;
+    flex-wrap: wrap;
+}
+.gradient-card-11{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background: linear-gradient(53deg, #7f1699 0%, #8931db 100%);
+    border-radius: 10px;
+    width: 40%;
+    height: 5em;
+    box-shadow: 13px 16px 8px 1px #000;
+    transition: 0.3s linear;
+}
+
+#section-7{
+    display: flex;
+    align-items:space-around;
+    justify-content: space-around;
+    width: 100%;
+    height: 40em;
+}
+.gradient-card-12{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background: linear-gradient(53deg, #7f1699 0%, #8931db 100%);
+    border-radius: 10px;
+    width: 40%;
+    height: 5em;
+    box-shadow: 13px 16px 8px 1px #000;
+    transition: 0.3s linear;
+}
+.gr-13{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    border-radius: 10px;
+    height: 40em;
+    align-items: center;
+}
+
+#section-8{
+    display: flex;
+    align-items:space-around;
+    justify-content: space-around;
+    width: 100%;
+    height: 40em;
+}
+.gradient-card-13{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background: linear-gradient(53deg, #7f1699 0%, #8931db 100%);
+    border-radius: 10px;
+    width: 40%;
+    height: 5em;
+    box-shadow: 13px 16px 8px 1px #000;
+    transition: 0.3s linear;
+}
+.gr-14{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    border-radius: 10px;
+    height: 40em;
+    align-items: center;
+}
